@@ -11,46 +11,46 @@ class Lanches {
 }
 
 class Combo{
-    constructor(bebida, batata)
-
+    constructor(bebida, batata, fruta){
+        this.bebida = True;
+        this.batata = [{
+            batataTamanho = batataM,
+            batataTamanho = batataP
+        }];
+        this.fruta = True;
+    }
 }
 
 
 
 
-class McLancheAlegre extends Lanches{
-    constructor(,hamburguer, hamCarne, queijo, alface, batata, fruta, molho, cebola, picles, pao, bebida){
-        this.hamCarne = 1;
+class McLancheAlegre extends Lanches, Combo{
+    constructor(hamburguer, hamCarne, queijo, alface, batata, fruta, molho, cebola, picles, pao, bebida){
+        this.hamburguer = hamCarne;
         this.queijo = true;
-        this.batataP = true;
+        this.batata = batata[1];
         this.fruta = true;
         this.pao = true;
-    }
-}
-class combo{
-    constructor(batata, bebida){
-        this.batataM = true;
-        this.batataP = false;
+        this.alface = false;
+        this.molho = false;
+        this.picles = false;
         this.bebida = true;
     }
-    preco(if (batataP = false;) {
-        this.preco = preco
-    })
+}
 
-class BigLanche{
+
+
+class BigLanche extends Lanches, Combo{
     constructor(hamCarne, hamFrango, queijo, alface, batata, fruta, molho, cebola, picles, pao, bebida){
-        this.hamCarne = 2;
+        this.hamburguer += hamCarne;
         this.queijo = true;
         this.alface = true;
         this.molho = true;
         this.cebola = true;
         this.picles = true;
         this.pao = true;
-        this.batataM = true;
+        this.batata = batata[0];
         this.bebida = true;
+        this.fruta = false;
     }
-    preco()
 }
-
-}
-
